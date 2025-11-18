@@ -1,8 +1,27 @@
-# React + Vite
+📸 React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    A simple React-based image gallery that fetches photos
+    from the Picsum API with pagination,
+    jump-to-page, and a loading indicator.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Fetch images using Picsum API
+    Next / Previous page navigation
+    Jump to any page
+    Numeric-only input handling
+    Loader while fetching
+    Clean UI with Tailwind CSS
+
+🔧 Tech Used
+    React
+    Axios
+    Tailwind CSS
+    Picsum Photos API
+
+▶️ Setup
+    npm install
+    npm start
+
+📘 API Used
+    https://picsum.photos/v2/list?page={pageNo}&limit=12
